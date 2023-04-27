@@ -43,7 +43,7 @@ output "resourceGroupName1" {
 
  ### variable types
 ## so far we have seen is a default variable type
-# we have list variable type
+# we have list variable type i.e single variable can hold multiple values
 
 variable "list-variable" {
     default = [
