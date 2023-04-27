@@ -50,6 +50,3 @@ variable "list-variable" {
         123,bobby,true
     ]
 }
-output "list-variable" {
-    value = "list variable value is=${var.list-variable}"
-}
