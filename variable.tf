@@ -47,7 +47,7 @@ output "resourceGroupName1" {
 
 variable "list-variable" {
     default = [
-        123,bobby,true
+        123,"bobby",true
     ]
 }
 output "list-variable" {
