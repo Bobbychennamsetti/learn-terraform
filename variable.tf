@@ -16,3 +16,27 @@ output "resourceGroupName" {
 output "resourceGroupName1" {
     value = "value of resourceGroupName = ${var.resourceGroupName}"
 }
+
+# Data types in variable:
+
+   variable num  {
+       default = 123
+   }
+
+   variable "string" {
+       default = "bobby"
+   }
+
+   variable "boolean" {
+       default = true
+   }
+
+  output "num" {
+      value = "value of num variable =${var.num}"
+  }
+  output "string" {
+      value = "value of string variable =${var.string}"
+  }
+  output "boolean" {
+      value = "value of boolean variable =${var.boolean}"
+  }
