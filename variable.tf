@@ -50,3 +50,15 @@ variable "list-variable" {
         123,bobby,true
     ]
 }
+
+## we have a dictionary or map to store multiple values in single variable, and each value is gonna have a
+# seperate name
+
+variable "sample-dict" {
+   default = {
+     num = 143
+     name = "bobby"
+     boolean = true
+   }
+}
+## note: the above map/dict will be a most preferable variable over the list when we declare the data

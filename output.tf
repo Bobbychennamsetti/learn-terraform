@@ -33,3 +33,14 @@
   output "list-variable1" {
     value = var.list-variable[1]
   }
+
+# access/print the num from sample-dict
+output "sample-dict" {
+  value = var.sample-dict["num"]
+}
+output "sample-dict1" {
+  value = var.sample-dict["name"]
+}
+output "sample-dict3" {
+  value = var.sample-dict["boolean"]
+}
