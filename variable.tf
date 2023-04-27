@@ -31,12 +31,25 @@ output "resourceGroupName1" {
        default = true
    }
 
-  output "num" {
-      value = "value of num variable =${var.num}"
-  }
-  output "string" {
-      value = "value of string variable =${var.string}"
-  }
-  output "boolean" {
-      value = "value of boolean variable =${var.boolean}"
-  }
+#  output "num" {
+#      value = "value of num variable =${var.num}"
+#  }
+#  output "string" {
+#      value = "value of string variable =${var.string}"
+#  }
+#  output "boolean" {
+#      value = "value of boolean variable =${var.boolean}"
+#  }
+
+ ### variable types
+## so far we have seen is a default variable type
+# we have list variable type
+
+variable "list-variable" {
+    default = [
+        123,bobby,true
+    ]
+}
+output "list-variable" {
+    value = "list variable value is=${var.list-variable}"
+}
