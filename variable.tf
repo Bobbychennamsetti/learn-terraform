@@ -62,3 +62,10 @@ variable "sample-dict" {
    }
 }
 ## note: the above map/dict will be a most preferable variable over the list when we declare the data
+
+## when your having same code , but running in multiple environments, then ur going to pass the variables
+#    like this
+
+variable "env" {}
+
+variable "auto_num1" {}

@@ -35,12 +35,16 @@
   }
 
 # access/print the num from sample-dict
-output "sample-dict" {
+output "sample-dict_num" {
   value = var.sample-dict["num"]
 }
-output "sample-dict1" {
+output "sample-dict_name" {
   value = var.sample-dict["name"]
 }
-output "sample-dict3" {
+output "sample-dict_boolean" {
   value = var.sample-dict["boolean"]
+}
+
+output "auto_num1" {
+  value = var.auto_num1
 }
